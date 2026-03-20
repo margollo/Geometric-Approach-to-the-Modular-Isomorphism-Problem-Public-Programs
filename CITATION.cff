@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Margolis"
+  given-names: "Leo"
+  orcid: "https://orcid.org/0000-0002-9413-0775"
+- family-names: "Sakurai"
+  given-names: "Taro"
+  orcid: "https://orcid.org/0000-0003-0608-1852"
+title: "Geometric-Approach-to-the-Modular-Isomorphism-Problem-Public-Programs"
+version: "First release"
+doi: 10.5281/zenodo.19064883
+date-released: 2026-03-17
+repository-code: "https://github.com/margollo/Geometric-Approach-to-the-Modular-Isomorphism-Problem-Public-Programs"
+license: "MIT"
+type: software
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Margolis"
+    given-names: "Leo"
+    orcid: "https://orcid.org/0000-0002-9413-0775"
+  - family-names: "Sakurai"
+    given-names: "Taro"
+    orcid: "https://orcid.org/0000-0003-0608-1852"
+  doi: "10.48550/arXiv.2603.18220"
+  journal: "arXiv"
+  start: 1 # First page number
+  end: 16 # Last page number
+  title: "Geometric approach to the modular isomorphism problem: groups of order 64"
+  year: 2026

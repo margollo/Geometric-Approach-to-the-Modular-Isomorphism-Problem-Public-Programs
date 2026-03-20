@@ -9,7 +9,7 @@ include("./verify_input.jl")    # quotient_ids, satisfy_rels
 include("./table_elem.jl")      # TableElem
 
 """
-Construct the ambient polynomial ring F_p[alpha_{a b}] in the sense of the paper with an isomorphism. The variables are named a_1,a_2,...,a_n, b_1,b_2,...b_n,... Here the number of different letters is the size of a minimal generating set of G and n is the dimension of the algebra Delta(F_pQ)/Delta^{l+1}(F_pQ) where the generators of Delta(F_pG) are mapped to
+Construct the ambient polynomial ring F_p[alpha_{a b}] in the sense of the paper with an isomorphism. The variables are named a_1,a_2,...,a_n, b_1,b_2,...b_n,... Here the number of different letters is the size of a minimal generating set of G and n is the dimension of the algebra Delta(F_pQ)/Delta^{l+1}(F_pQ) where the generators of Delta(F_pG) are mapped to.
 """
 function ambient_polynomial_ring(
     G::PcGroup,
@@ -35,7 +35,7 @@ function ambient_polynomial_ring(
 end
 
 """
-Return values for generators under a homomorphism with an isomorphism. In particular, construct the TableAlgebra corresponding to Delta(FQ)/Delta^{l+1}(FQ) and polynomial ring corresponding to G and Q at layer l
+Return values for generators under a homomorphism with an isomorphism. In particular, construct the TableAlgebra corresponding to Delta(FQ)/Delta^{l+1}(FQ) and polynomial ring corresponding to G and Q at layer l.
 """
 function working_values(
     G::PcGroup,
@@ -127,6 +127,7 @@ julia> splitting_layer(G, H) # over prime field
 2
 julia> splitting_layer(G, H, deg=2) # over quadratic field
 3
+```
 """
 function splitting_layer(G::PcGroup, H::PcGroup; deg::Int=1)::Int
     n, i = small_group_identification(G)
